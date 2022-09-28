@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    float: right;
+    padding-top: 20px;
+
+}
+
+.items {
+    margin: 0 15px;
+    color: seashell;
+}
+
+.box1 {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1ni0nnp*_ga*NTA5MTk1MjY4Ni4xNjYxOTcwMjA5*_ga_3LRZM6TM9L*MTY2NDM2MzQzMi40Mi4xLjE2NjQzNjcyNTQuNTguMC4w);
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.box1-test {
+    display: inline-flex;
+    align-items: center;
+
+    flex-direction: column;
+    background-color: black;
+
+}
+
+.box2-tea-of {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 1000px;
+    align-items: center;
+    
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    max-height: 250px;
+    margin-bottom: 10px;
+    align-items: center;
+    
+
+
+}
+
+.card img {
+    max-height: 300px;
+    max-height: 200px;
+    
+
+
+}
+
+.box2-test {
+    text-align: center;
+    padding: 60px;
+}
+
+.box3-test {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+
+.box-loc {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.9;
+    opacity: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 15px 40px 200px 40px;
+
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/img-locations-background.jpeg);
+    max-height: 550px;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.location-title {
+    padding-top: 150px;
+
+}
+
+.footer-box {
+    height: 200px;
+    text-align: center;
+
+}
+
+h5 {
+    margin-top: 50px;
+}
+
+.copyright {
+    float: left;
+    margin-left: 20px;
+}
